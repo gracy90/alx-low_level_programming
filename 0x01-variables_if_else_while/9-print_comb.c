@@ -10,6 +10,7 @@
 int main(void)
 {
 		int a;
+
 		while (a < 0)
 		{
 			putchar(48 + a);
