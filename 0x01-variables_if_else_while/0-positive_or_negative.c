@@ -2,8 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
- *Entry into main program
+/**
+ *main - Entry into main program
 */
 int main(void)
 {
