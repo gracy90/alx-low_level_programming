@@ -5,7 +5,7 @@
  *Return: nothing
  */
 
-int main(voif)
+int main(void)
 {
 	int i = 0;
 	long j = i, k =2;
