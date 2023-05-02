@@ -8,6 +8,7 @@
  */
 
 void print_rev(char *s)
+/*print_rev prints a string in reverse*/
 {
 	int c = 0;
 
@@ -21,3 +22,4 @@ void print_rev(char *s)
 	_putchar(s[c]);
 	}
 	_putchar('\n');
+}
