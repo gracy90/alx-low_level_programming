@@ -18,6 +18,6 @@ void puts_half(char *str);
 
 void print_arry(int *a, int n);
 
-char *_strcpyl(cha *dest, char *src);
+char *_strcpyl(char *dest, char *src);
 
 int _atoil(char *s);
