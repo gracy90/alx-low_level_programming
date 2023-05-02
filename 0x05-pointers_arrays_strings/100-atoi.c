@@ -3,10 +3,11 @@
 /**
  * _atoi - Conver a string to an integer
  * @s: the pointer to convert
- * return: An integer
+ * Return: An integer
  */
 
 int _atoi(char *s)
+/*_atoi return an integer*/
 {
 	int c = 0;
 	unsigned int ni = 0;
@@ -21,7 +22,7 @@ int _atoi(char *s)
 	}
 	while (s[c] >= 48 && s[c] <= 57)
 	{
-	isi =1 ;
+	isi = 1;
 	ni = (ni * 10) + (s[c] - '0');
 	c++;
 	}
