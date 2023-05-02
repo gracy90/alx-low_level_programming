@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * _stropy - coy a string
+ * _strcpy - copy a string
  * @dest: destination value
  * @src: source value
  * Return: the pointer to dest
  */
 
-char *_stropy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	int i;
 
