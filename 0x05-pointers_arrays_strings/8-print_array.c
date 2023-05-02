@@ -10,6 +10,7 @@
  */
 
 void print_array(int *a, int n)
+/* print_array: prints elements of an array*/
 {
 	int j;
 
