@@ -1,20 +1,25 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * _strncat - concatenates two strings
- * @dest: the string to be appended
- * @src: the string to be appended to dest
- * @n: the number of bystes from src
- * Return: a pointer to the resulting string
+ * _strcat - concatenates two strings
+ * @dest: the destination string
+ * @src: the source string
+ * Return: A pointer to the resulting string dest
  */
 
-char *_strncat(char *dest, char *src, int n)
+char *_strcat(char *dest, char *src)
 {
-	int index = 0, dest_len = 0;
-
-	while (dest(index++))
-	dest_len++;
-	for (index = 0; scr[index] && index < n; index ++)
-	dest[dest_len++] = src[index];
+	int dlen = 0, i;
+	while (dest[dlen])
+	{
+		dlen++;
+	}
+	for (i = 0; src[i] != 0; i++)
+	{
+		dest[dlen] = src[i];
+		dlen++;
+	}
+	dest[dlen] = '\0';
 	return (dest);
 }
