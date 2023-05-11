@@ -6,6 +6,7 @@
  * Return: nothing
  */
 void _print_rev_recursion(char *s)
+/*_print_rev_recursion - Print a string in reverse*/
 {
 	if (*s == '\0')
 	{
