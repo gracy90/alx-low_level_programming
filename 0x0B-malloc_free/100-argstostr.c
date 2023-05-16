@@ -7,6 +7,7 @@
  * @ac: the argument count
  * @av: the argument vector
  * @av: the argument vector
+ * Returns: NULL if str == NULL or str == ""
  */
 char *argstostr(int ac, char **av)
 {
