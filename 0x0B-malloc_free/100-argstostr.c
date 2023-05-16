@@ -6,8 +6,8 @@
  * argstostr - conver the params passed to the program to string
  * @ac: the argument count
  * @av: the argument vector
- * @av: the argument vector
- * Return Value: NULL if ac == 0 or av == NULL
+ *
+ * Return: NULL if ac == 0 or av == NULL
  */
 char *argstostr(int ac, char **av)
 {
